@@ -1,11 +1,10 @@
-import {Text, View} from "react-native";
+import {Image, Text, View} from "react-native";
 
 const App = () => {
   return (
       <View>
-        <Text style={{ fontSize: 50 }}>Hello App</Text>
-        <Text style={{ fontSize: 20 }}>Babe</Text>
-        <Text style={{ fontSize: 20 }}>I'm Text</Text>
+        {/*<Image source={require('./assets/favicon.png')} />*/}
+          <Image style={{ width: '100%', height: 200 }} source={{ uri: 'https://reactnative.dev/img/homepage/phones.png' }} />
       </View>
   )
 }
