@@ -6,26 +6,20 @@ const App = () => {
       <View>
           <SafeAreaView>
               <View>
-                  <Text>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolorem expedita explicabo facere facilis fuga harum illum iure laboriosam odit quas quisquam reiciendis repellendus sequi sint, sunt, unde veritatis.
-                      Apple
-                  </Text>
+                  <Text style={ styles.font_size }>Hello React Native</Text>
+                  <Text>Hello React Native</Text>
               </View>
           </SafeAreaView>
       </View>
   )
 }
+
+const styles = StyleSheet.create({
+    font_size: {
+        fontSize: 30,
+        color: "#007bff",
+        fontWeight: "bold"
+    }
+})
 
 export default App;
